@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fertilizer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/farmdp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/farmdp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fertilizer">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".FertiInfo"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".websites.UreaActivity"
+            android:exported="false"
+            android:parentActivityName=".websites.UreaActivity" />
+        <activity
+            android:name=".websites.PotassiumActivity"
+            android:exported="false"
+            android:parentActivityName=".websites.PotassiumActivity" />
+        <activity
+            android:name=".websites.CalNitActivity"
+            android:exported="false"
+            android:parentActivityName=".websites.CalNitActivity" />
+        <activity
+            android:name=".websites.AmmoNitActivity"
+            android:exported="false"
+            android:parentActivityName=".websites.AmmoNitActivity" />
+        <activity
+            android:name=".websites.HumicActivity"
+            android:exported="false"
+            android:parentActivityName=".websites.HumicActivity" />
+
+    </application>
+
+</manifest>
