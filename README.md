@@ -54,3 +54,4 @@ having the title “Welcome To Fertilizer App.”
 
 ●	Fertilizer  Information Screen – The Available fertilizer  Screen contains the list of all the available  fertilizer  for the farmer
 
+
